@@ -1,9 +1,8 @@
 # Python
-
-**pycache**/
-_.py[cod]
-_$py.class
-_.so
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
 .Python
 build/
 develop-eggs/
@@ -17,24 +16,21 @@ parts/
 sdist/
 var/
 wheels/
-_.egg-info/
+*.egg-info/
 .installed.cfg
-\*.egg
+*.egg
 
 # Virtual Environment
-
 venv/
 env/
 ENV/
 
 # IDE
-
 .idea/
 .vscode/
-_.swp
-_.swo
+*.swp
+*.swo
 
 # OS specific
-
 .DS_Store
 Thumbs.db
